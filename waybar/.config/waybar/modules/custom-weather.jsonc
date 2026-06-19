@@ -1,0 +1,9 @@
+{
+  "custom/weather": {
+    "format": " {}",
+    "tooltip": false,
+    "interval": 300,
+    "exec": "curl -s 'wttr.in?format=%t+%C' 2>/dev/null || echo 'N/A'",
+    "on-click": "curl -s 'wttr.in?format=3' | xargs -I {} notify-send 'Weather' {}"
+  }
+}

@@ -46,3 +46,8 @@ new_tmux () {
 }
 
 alias tm=new_tmux
+alias cls=clear
+alias cat=bat
+alias ls="lsd -a"
+
+. "$HOME/.local/share/../bin/env"

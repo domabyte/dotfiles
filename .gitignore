@@ -1,0 +1,31 @@
+# Sensitive / auth files
+gh/hosts.yml
+github-copilot/
+pulse/
+1Password/
+Bitwarden/
+
+# Browser/app data (not config)
+chromium/
+Cursor/
+Typora/
+
+# Binary / generated
+dconf/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.pma
+
+# Nvim lock file (managed per-machine)
+nvim/.config/nvim/lazy-lock.json
+
+# Waybar backups
+waybar.bak.*
+
+# OS
+.DS_Store
+Thumbs.db
